@@ -89,6 +89,11 @@ variable "postgresql_database" {
   default     = "postgresql-database"
 }
 
+variable "database_adminuser" {  
+  description = ""
+  default     = ""
+}
+
 variable "adminportal_fd" {  
   description = ""
   default     = "adminportal-fd"
