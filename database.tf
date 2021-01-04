@@ -6,8 +6,8 @@ resource "azurerm_postgresql_server" "postgresql_server" {
   location            = azurerm_resource_group.beistpdatabase.location
   resource_group_name = azurerm_resource_group.beistpdatabase.name
 
-  administrator_login          = "psqladminun"
-  administrator_login_password = "H@Sh1CoR3!"
+  administrator_login          = ""
+  administrator_login_password = ""
 
   sku_name   = "GP_Gen5_4"
   version    = "9.6"
