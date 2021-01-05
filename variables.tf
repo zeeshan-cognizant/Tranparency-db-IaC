@@ -90,7 +90,7 @@ variable "postgresql_database" {
 }
 
 variable "database_adminuser" {  
-  description = ""
+  description = "des added"
   default     = ""
 }
 
