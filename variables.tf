@@ -94,6 +94,11 @@ variable "database_adminuser" {
   default     = ""
 }
 
+variable "database_userpass" {  
+  description = "database password"
+  default     = ""
+}
+
 variable "adminportal_fd" {  
   description = ""
   default     = "adminportal-fd"
